@@ -1,4 +1,4 @@
-# <center>CR5Robot</center>
+# <center>CR5 Robot</center>
 
 This Repositories is modify the Robot CR5 model, adding Intel Realsense camera at the end-effector of the robot and editing the urdf file.
 
