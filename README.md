@@ -1,30 +1,15 @@
 # <center>CR5Robot</center>
 
-Chinese version of the README -> please [click here](./README-CN.md)
+This Repositories is modify the Robot CR5 model, adding Intel Realsense camera at the end-effector of the robot and editing the urdf file.
 
 # Building
-## ubuntu16.04
 
-```
-cd $HOME/catkin_ws/src
-
-git clone https://github.com/Dobot-Arm/CR5_ROS.git -b kinetic-devel
-
-cd $HOME/catkin_ws
-
-# building
-catkin_make
-
-# activate this workspace
-source $HOME/catkin_ws/devel/setup.bash
-```
-
-## ubuntu18.04
+## ubuntu20.04
 
 ### Use git to clone the source code
 ```
 cd $HOME/catkin_ws/src
-git clone https://github.com/Dobot-Arm/CR5_ROS.git -b melodic-devel
+git clone https://github.com/monkeyrom/CR_ROS.git
 cd $HOME/catkin_ws
 ```
 
@@ -38,24 +23,10 @@ catkin_make
 source $HOME/catkin_ws/devel/setup.bash
 ```
 # set the dobot type
-### If you use CR3 robot， please type the fllow commands
-```
-echo "export DOBOT_TYPE=cr3" >> ~/.bashrc
-source ~/.bashrc
-```
+
 ### If you use CR5 robot， please type the fllow commands
 ```
 echo "export DOBOT_TYPE=cr5" >> ~/.bashrc
-source ~/.bashrc
-```
-### If you use CR10 robot， please type the fllow commands
-```
-echo "export DOBOT_TYPE=cr10" >> ~/.bashrc
-source ~/.bashrc
-```
-### If you use CR16 robot， please type the fllow commands
-```
-echo "export DOBOT_TYPE=cr16" >> ~/.bashrc
 source ~/.bashrc
 ```
 
